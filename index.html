@@ -1,0 +1,243 @@
+<html>
+ <head>
+  <title>
+   ONION
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            background-color: #000;
+            border-bottom: 1px solid #333;
+        }
+        .header .left, .header .right {
+            display: flex;
+            align-items: center;
+        }
+        .header .left i, .header .right i {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+        .header .title {
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+        }
+        .header .title img {
+            width: 24px;
+            height: 24px;
+            margin-left: 5px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .daily-check-in {
+            display: flex;
+            align-items: center;
+            background-color: #333;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .daily-check-in img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .daily-check-in .text {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+        }
+        .daily-check-in .text span {
+            font-size: 16px;
+        }
+        .daily-check-in .text i {
+            font-size: 24px;
+        }
+        .balance-card {
+            background-color: #222;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .balance-card .balance {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        .balance-card .currency {
+            font-size: 18px;
+            color: #888;
+            margin-bottom: 20px;
+        }
+        .balance-card .connect-wallet {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #0055ff;
+            padding: 10px;
+            border-radius: 10px;
+            color: #fff;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .balance-card .wallet-balance {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .balance-card .wallet-balance img {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+        .balance-card .wallet-balance .text {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+        }
+        .balance-card .wallet-balance .text span {
+            font-size: 16px;
+        }
+        .balance-card .wallet-balance .text i {
+            font-size: 24px;
+        }
+        .promo-card {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .promo-card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .promo-card .text {
+            font-size: 16px;
+        }
+        .footer {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            background-color: #000;
+            border-top: 1px solid #333;
+        }
+        .footer .icon {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #888;
+        }
+        .footer .icon.active {
+            color: #0055ff;
+        }
+        .footer .icon i {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="header">
+   <div class="left">
+    <i class="fas fa-times">
+    </i>
+   </div>
+   <div class="title">
+    ONION
+    <img alt="goat emoji" height="24" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-LmQ09WWGIGwOeeA4ArnRw0x5/user-uJPET5fjNenSso8wCETWVNOp/img-FHoknrqug2yBtz7pEvvPinq5.png?st=2024-09-15T08%3A54%3A24Z&amp;se=2024-09-15T10%3A54%3A24Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-15T00%3A06%3A07Z&amp;ske=2024-09-16T00%3A06%3A07Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=8eKj5LWFUbKMwBt8m48QuroaU78%2B5mFLWR%2BOXti0NyE%3D" width="24"/>
+   </div>
+   <div class="right">
+    <i class="fas fa-ellipsis-v">
+    </i>
+   </div>
+  </div>
+  <div class="content">
+   <div class="daily-check-in">
+    <img alt="User profile picture" height="40" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-LmQ09WWGIGwOeeA4ArnRw0x5/user-uJPET5fjNenSso8wCETWVNOp/img-irWRzv1awwcr0KOAMm19cKKn.png?st=2024-09-15T08%3A54%3A22Z&amp;se=2024-09-15T10%3A54%3A22Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-14T23%3A35%3A15Z&amp;ske=2024-09-15T23%3A35%3A15Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=vY9qxGYgx%2Bj8MajGDDWrrgdpbO77DqwVO2fYfwxYKck%3D" width="40"/>
+    <div class="text">
+     <span>
+      Daily check-in
+     </span>
+     <i class="fas fa-calendar-check">
+     </i>
+    </div>
+   </div>
+   <div class="balance-card">
+    <div class="balance">
+     200
+    </div>
+    <div class="currency">
+     $ONION
+    </div>
+    <div class="connect-wallet">
+     <i class="fas fa-wallet">
+     </i>
+     Connect wallet
+    </div>
+    <div class="wallet-balance">
+     <img alt="TON logo" height="40" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-LmQ09WWGIGwOeeA4ArnRw0x5/user-uJPET5fjNenSso8wCETWVNOp/img-V4KsgxVnjsgo68JBaZXPn8Vr.png?st=2024-09-15T08%3A54%3A21Z&amp;se=2024-09-15T10%3A54%3A21Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-14T23%3A18%3A25Z&amp;ske=2024-09-15T23%3A18%3A25Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=Tc2N9kopcdpvd/PXhHEfyS%2B7AzTrfcPljkMf/n3dCn4%3D" width="40"/>
+     <div class="text">
+      <span>
+       $TON
+      </span>
+      <span>
+       --- $TON
+      </span>
+      <i class="fas fa-arrow-up">
+      </i>
+     </div>
+    </div>
+   </div>
+   <div class="promo-card">
+    <img alt="TON Faucet Frenzy promotion image" height="150" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-LmQ09WWGIGwOeeA4ArnRw0x5/user-uJPET5fjNenSso8wCETWVNOp/img-ptlSBNPCdwUx86whj7KI2y1u.png?st=2024-09-15T08%3A54%3A21Z&amp;se=2024-09-15T10%3A54%3A21Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-14T22%3A54%3A12Z&amp;ske=2024-09-15T22%3A54%3A12Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=xSUMQggP/R7yNNOvSgt/BC7qDagG70eXbX2ttANOMaI%3D" width="300"/>
+    <div class="text">
+     TON FAUCET FRENZY - Claim FREE $TON for gas fee 💎
+    </div>
+   </div>
+  </div>
+  <div class="footer">
+   <div class="icon active">
+    <i class="fas fa-home">
+    </i>
+    <span>
+     Home
+    </span>
+   </div>
+   <div class="icon">
+    <i class="fas fa-chart-line">
+    </i>
+    <span>
+     Ranking
+    </span>
+   </div>
+   <div class="icon">
+    <i class="fas fa-fire">
+    </i>
+    <span>
+     Missions
+    </span>
+   </div>
+   <div class="icon">
+    <i class="fas fa-user-friends">
+    </i>
+    <span>
+     Friends
+    </span>
+   </div>
+  </div>
+ </body>
+</html>
